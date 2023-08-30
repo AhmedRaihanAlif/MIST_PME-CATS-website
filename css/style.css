@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	background-color: #01d28e;
+}
+header .navbar{
+	width: 90%;
+	margin: auto;
+}
+header .navbar-brand img{
+	height: 60px;
+	width: 70px;
+}
+header .navbar .brand-content{
+	display: flex;
+	width: 90%;
+}
+header .navbar-expand-lg .brand-content{
+	width: 50%;
+}
+header .navbar .brand-name{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: white;
+}
+header .navbar .brand-name h3{
+	font-size: 15px;
+	color: white;
+}
+header .navbar .brand-name h3:nth-child(1){
+	color: red;
+	font-size: 18px;
+}
+header .navbar .nav-item{
+	margin: 0 10px;
+}
+header .navbar .nav-item a{
+	color: white;
+	text-decoration: none;
+	padding: 8px 20px;
+	font-size: 15px;
+	border-radius: 30px;
+}
+header .navbar .nav-item a:hover{
+	color: black;
+	background-color: white;
+	border-radius: 30px;
+	transition: 1s;
+
+}
+header .navbar-toggler i{
+	color: white;
+}
+
+.overview-section{
+	margin-top: 50px;
+}
+.overview-section h2{
+	margin-bottom: 20px;
+}
+.overview-section p{
+	text-align: justify;
+	margin-bottom: 30px;
+}
+.overview-section .call-btn{
+	padding: 8px 15px;
+	border-radius: 30px;
+	background-color: #01d28e;
+	color: white;
+	text-decoration: none;
+}
+.projected-numbers{
+	margin-top: 80px;
+	background-color: rgb(42 38 38 / 8%);
+	padding: 50px 0px;
+}
+.projected-numbers .common-title{
+	margin-bottom: 50px;
+}
+
+.counter{
+    color: rgb(34, 197, 94);;
+    width: 210px;
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.counter:before{
+    content: "";
+    background: #F4F6F5;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.counter .counter-icon{
+    background: #fff;   
+    font-size: 35px;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4),0 0 0 8px ;
+}
+.counter h3{
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.counter .counter-value{
+    color: #fff;
+    background-color: rgb(34, 197, 94);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 0 0 15px 15px;
+    display: block;
+}
+.green{ background-color: #01d28e; }
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-section{
+	margin: 50px 0px;
+}
+.gallery-section .gallery_product img{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.gallery_product
+{
+    margin-bottom:10px;
+}
+.we_help_you {
+    padding-top: 150px;
+    padding-bottom: 50px;
+
+}
+
+.seo_service {
+    padding-bottom: 140px;
+}
+.we_help_you h3,
+.why_choose h3,
+.get_free_info h3,
+.better-img-info h3,
+.testimonials h3,
+.full_service h3,
+.We_are_next h3{
+    text-align: center;
+    font-size: 35px;
+    color: #0c0f13;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.we_help_you p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #556274;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.icon-box-info {
+    width: 84%;
+    margin-left: 20px;
+}
+
+.icon-box-info p {
+    text-align: justify;
+}
+
+.we_help_you .icon-box {
+    padding: 30px 25px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #fcfcfd;
+    border: 2px solid #e8ecf1;
+}
+.we_help_you i{
+	color: white;
+	font-size: 22px;
+}
+.we_help_you .icon-who {
+    padding: 15px;
+    border-radius: 5px;
+    width: 62px;
+    height: 60px;
+    background-color: #0d4bd6;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+}
+
+.icon-box-info h5 {
+    font-size: 18px;
+    color: #0c0f13;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.icon-box-info p {
+    font-size: 16px;
+    max-height: 5em;
+    overflow: hidden;
+}
+
+.bg-green {
+    background-color: #01d28e !important;
+    color: white !important;
+}
+
+.bg-blue {
+    background-color: #7f48fb !important;
+}
+
+.bg-yellow {
+    background-color: #ffbb38 !important;
+}
+
+.bg-bluee {
+    background-color: #206fe7 !important;
+}
+.consultancy .card-body i{
+	color: #01d28e;
+
+}
+footer{
+	background-color: #01d28e;
+	padding: 30px 0px;
+}
+footer .footer-title h4,
+footer .footer-btm{
+	color: white;
+}
+footer .list-unstyled li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+footer .list-unstyled li i{
+	margin-right: 10px;
+	border-radius: 50%;
+	padding: 15px;
+	background-color: white;
+	color: rgb(34, 197, 94);
+}
+footer .list-unstyled li a{
+	text-decoration: none;
+	color: black;
+}
+footer .list-unstyled li a:hover{
+	color: white;
+}
+footer .footer-title .title-underline{
+	height: 3px;
+	display: block;
+	width: 60px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+footer .report-time{
+	background-color: white;
+	color: rgb(34, 197, 94);
+	padding: 30px;
+}
+footer .report-time h5{
+	color: black;
+}
+footer .hr{
+	height: 1px;
+	display: block;
+	width: 100%;
+	background-color: white;
+}
+footer  .footer-btm a{
+	text-decoration: none;
+	color: black;
+}
+.ftco-section{
+	margin: 50px 0px;
+}
+.info-wrap {
+	background-color: #01d28e !important;
+	color: white;
+}
+.info-wrap a{
+	text-decoration: none;
+	color: white;
+}
+.info-wrap a:hover{
+	color: black;
+}
+.info-wrap .dbox .icon{
+	padding: 15px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin-right: 10px;
+}
+.contactForm .form-control{
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control:focus,.contactForm .form-control:active {
+  border-color: #01d28e !important;
+}
+.contactForm .form-group{
+	margin-bottom: 1rem;
+}
+.contactForm .label {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.form-control::placeholder {
+  color: rgba(0, 0, 0, 0.3) !important;
+  font-size: 15px;
+}
+#contactForm .error {
+  color: red;
+  font-size: 15px;
+}
+.about-title {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .about-title .bg-image {
+            object-fit: cover;
+            object-position: 50% 30%;
+            width: 100%;
+            height: 60vh;
+            filter: opacity(50%);
+        }
+
+        .about-title .text-overlay {
+            margin-right: 10px;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            color: black;
+            z-index: 1;
+            text-align: right;
+        }
+
+        .about-title .text-overlay h1 {
+            font-weight: bold;
+            margin: 0;
+
+        }
+
+        .about-title .logo {
+            width: 60px;
+            height: 60px;
+            margin-right: 0rem;
+        }
+
+        .about-title .logo-title {
+            color: #fff;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .about-title .uni-info h1 {
+            color: #2e3192;
+            font-size: 3rem;
+        }
+
+        .about-title .uni-info span {
+            color: grey;
+        }
+
+        .about-title .uni-info .vl {
+            border-left: 2px solid grey;
+            height: 30px;
+            margin: 0 5px;
+        }
+
+        @media (max-width: 767px) {
+            .about-title .bg-image {
+                object-position: 50% 30%; /* Show top portion for mobile */
+            }
+
+            .about-title .text-overlay {
+                text-align: center;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                margin-right: 0;
+            }
+        }
+.lube-oil-analysis h1,
+.lube-oil-analysis h3,
+.about-lab h1{
+	color: #2e3192;
+}
+.lube-oil-analysis .lube-line{
+	width: 30vw;
+	height: 4px;
+	background-color: #2e3192;
+	display: block;
+}
+.lube-oil-analysis ul li{
+	margin-bottom: 1rem;
+    text-align: justify;
+}
+ .lube-oil-analysis .circular-image{
+	border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.about-lab{
+	margin-bottom: 50px;
+}
+
+.about-lab p{
+	font-size: 1rem;
+    text-align: justify;
+}
+.about-lab .logo-group img{
+	width: 150px;
+}
+.team_member {
+	margin-top: 50px;
+    background: rgba(199,201,209,.09);
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.single_team_content{
+padding:45px;
+margin-top:60px;
+}
+.single_team_content h1 {
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 60px;
+}
+.single_team_content p{}
+.our-team {
+	margin-bottom: 30px;
+	box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
+}
+.our-team .team_img{
+    position: relative;
+    overflow: hidden;
+}
+.our-team .team_img:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.2);
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .team_img:after{
+    bottom: 0;
+}
+.our-team img{
+    width: 100%;
+    height: 390px;
+}
+
+.our-team .team-content{
+    padding: 20px 10px;
+    background: #fff;
+
+}
+.our-team .team-content span i{
+	color: grey;
+}
+.our-team .title{
+    font-size: 18px;
+    font-weight: bold;
+    color:#01d28e;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    position: relative;
+}
+.our-team:hover .title:before,
+.our-team:hover .title:after{
+    width: 50px;
+}
+.our-team .post{
+    display: inline-block;
+    font-size: 17px;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 1388px){
+    header .navbar-expand-lg .brand-content{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 990px){
+    header .navbar-expand-lg .brand-content{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}
+
+ 
+@media (min-width: 1369px) {
+      .carousel-slider .carousel-inner {
+        height: 800px;
+      }
+    } 
